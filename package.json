@@ -1,0 +1,14 @@
+{
+  "name": "docker_testing",
+  "version": "1.0.0",
+  "description": "Docker practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "raul-repos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
