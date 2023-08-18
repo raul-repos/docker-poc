@@ -7,3 +7,10 @@ services:
         NODE_ENV: production
     environment:
       - NODE_ENV=production
+      - MONGO_USER=produser
+      - MONGO_PASSWORD=prodpassword
+
+  mongo:
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=produser
+      - MONGO_INITDB_ROOT_PASSWORD=prodpassword
